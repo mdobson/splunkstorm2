@@ -1,0 +1,25 @@
+{
+  "name": "splunkstorm2",
+  "version": "0.0.0",
+  "description": "Native splunkstorm interface. Naive optimizations as well.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdobson/splunkstorm2.git"
+  },
+  "keywords": [
+    "splunk"
+  ],
+  "author": "Matthew Dobson <@mdobs>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdobson/splunkstorm2/issues"
+  },
+  "homepage": "https://github.com/mdobson/splunkstorm2"
+}
