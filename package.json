@@ -1,6 +1,6 @@
 {
   "name": "splunkstorm2",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Native splunkstorm interface. Naive optimizations as well.",
   "main": "index.js",
   "directories": {
