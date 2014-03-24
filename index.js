@@ -19,9 +19,13 @@ Log.prototype.send = function(event, sourceType, host, source, cb) {
 
   if(typeof host !== 'undefined') {
     this.requestParams.host = host;
+  } else {
+    this.requestParams.host = null;
   }
 
   if(typeof source !== 'undefined') {
+    this.requestParams.source = source;
+  } else {
     this.requestParams.source = source;
   }
 
