@@ -61,7 +61,6 @@ Log.prototype.send = function(event, sourceType, host, source, cb) {
 
   req.end();
 
-  req = null;
 };
 
 module.exports = Log;
